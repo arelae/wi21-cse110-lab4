@@ -6,7 +6,7 @@
 5) Line 11 will give an error because let has block scope. The block scope of i is the for loop.
 6) Line 12 will give an error because let has block scope. The block scope of i is the for loop.
 7) Line 13 will not give an error. It will run properly because it is in the same block scope as where it was declared with let.
-8) TyperError: Assignment to constant variable. This error is returned because finalPrice is a const, and we were trying to assign it a value in the for loop.
+8) Gets TyperError: Assignment to constant variable. This error is returned because finalPrice is a const, and we were trying to assign it a value in the for loop.
 9) Line 11 will give an error because let has block scope. The block scope of i is the for loop.
 10) Line 12 will give an error because const has block scope. The block scope of discountedPrice is the for loop.
 11) Line 13 will only run if it gets past the for loop, which it will not if its a const. If it does get out of the for loop, 150 will be printed because is the last thing finalPrice is set to inside the for loop.
