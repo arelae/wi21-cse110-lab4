@@ -46,7 +46,7 @@
 19) [6, 8, 10]
     An empty array is declared in modifyArray and the for loop goes through the array given and add 2 in doSomething then multiply by 2 in modifyArray for loop and push onto the newArr.
 
-20) output is: 
+21) output is: 
     1
     4
     3
